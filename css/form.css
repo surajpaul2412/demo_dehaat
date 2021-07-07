@@ -794,3 +794,11 @@ ol, ul {
 	overflow:hidden;
 	font-size: 13px;
 }
+
+
+/*mobile only screen*/
+@media only screen and (max-width: 745px) {
+	.mobile-d-none{
+		display: none;
+	}
+}
