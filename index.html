@@ -18,6 +18,9 @@
 	<link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
 	<script src="js/validation.js"></script>
      <style>
+     	ol, ul {
+        	padding-left: 0;
+      	}
      	a{
      		text-decoration: none !important;
      		cursor: pointer !important;
@@ -178,10 +181,14 @@
 <!-- seller Modal -->
 <div class="modal fade" id="sellerModal" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-xl p-0" role="document">
-	  <!-- <div class="modal-content p-0" style="background-image: linear-gradient(to bottom, rgb(000 000 000 / 85%), rgb(000 000 000 / 85%)), url(https://www.agrevolution.in/images/network/PHOTO-2019-08-18-12-05-08.jpg);background-position: center;background-size: 100%;background-repeat: no-repeat;height: auto;"> -->
-	<div class="modal-content p-0" style="background:#6bb51e;">
+	  <div class="modal-content p-0" style="background:#6bb51e;">
+		<div class="modal-header" style="border:none;">
+		    <button type="button" class="" data-dismiss="modal" aria-label="Close" style="position: absolute;right: -1%;top: -1%;">
+		      <img src="img/close-button.png" width="30px">
+		    </button>
+		</div>
 		<div class="modal-body p-0 m-0">
-			<form class="card p-4 border-none" action='https://forms.zohopublic.in/DeHaat/form/BasicSignup3/formperma/x1kcF0PP-mnhuzd7IVlOk-a6w65i2UObotIi11FBOB0/htmlRecords/submit' name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();' accept-charset='UTF-8' enctype='multipart/form-data' id='form' style="background: transparent;">
+			<form class="card px-4 pb-4 border-none" action='https://forms.zohopublic.in/DeHaat/form/BasicSignup3/formperma/x1kcF0PP-mnhuzd7IVlOk-a6w65i2UObotIi11FBOB0/htmlRecords/submit' name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();' accept-charset='UTF-8' enctype='multipart/form-data' id='form' style="background: transparent;">
 			  <input type="hidden" name="zf_referrer_name" value="">
 			  <input type="hidden" name="zf_redirect_url" value="">
 			  <input type="hidden" name="zc_gad" value="">
@@ -667,10 +674,14 @@
 <!-- buyer Modal -->
 <div class="modal fade" id="buyerModal" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-xl p-0" role="document">
-	  <!-- <div class="modal-content p-0" style="background-image: linear-gradient(to bottom, rgb(80 167 84 / 65%), rgb(68 88 45 / 75%)), url(https://www.agrevolution.in/images/network/PHOTO-2019-08-18-12-05-08.jpg);background-position: center;background-size: 100%;background-repeat: no-repeat;height: 80vh;"> -->
 	<div class="modal-content p-0" style="background:#6bb51e;">
+		<div class="modal-header" style="border:none;">
+		    <button type="button" class="" data-dismiss="modal" aria-label="Close" style="position: absolute;right: -1%;top: -1%;">
+		      <img src="img/close-button.png" width="30px">
+		    </button>
+		</div>
 		<div class="modal-body p-0 m-0">
-			<form class="card p-4 border-none" action='https://forms.zohopublic.in/DeHaat/form/BasicSignup3/formperma/x1kcF0PP-mnhuzd7IVlOk-a6w65i2UObotIi11FBOB0/htmlRecords/submit' name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();' accept-charset='UTF-8' enctype='multipart/form-data' id='form' style="background: transparent;">
+			<form class="card px-4 pb-4 border-none" action='https://forms.zohopublic.in/DeHaat/form/BasicSignup3/formperma/x1kcF0PP-mnhuzd7IVlOk-a6w65i2UObotIi11FBOB0/htmlRecords/submit' name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();' accept-charset='UTF-8' enctype='multipart/form-data' id='form' style="background: transparent;">
 			  <input type="hidden" name="zf_referrer_name" value="">
 			  <input type="hidden" name="zf_redirect_url" value="">
 			  <input type="hidden" name="zc_gad" value="">
@@ -1150,6 +1161,7 @@
 		  </div>
 		</div>
 	  </div>
+	</div>
 	</div>
 </div>
 
