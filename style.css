@@ -1,6 +1,7 @@
 /*know your soil*/
 html{
 	scroll-behavior: smooth;
+	font-family: 'Gilroy-Regular';
 }
 .bg-green{
 	background-color: #6ab41f;
